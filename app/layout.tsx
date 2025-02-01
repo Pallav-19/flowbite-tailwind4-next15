@@ -26,7 +26,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {/* <script src="/flowbite.min.js" async></script> */}
         <FlowbiteProvider>{children}</FlowbiteProvider>
       </body>
     </html>
